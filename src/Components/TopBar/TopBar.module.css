@@ -1,0 +1,33 @@
+.TopBar {
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fca311;
+}
+
+.TopBarWrapper {
+  height: 100%;
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #14213d;
+}
+.TopRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TopBarIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+}
